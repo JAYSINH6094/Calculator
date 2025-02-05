@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11120F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:text="Simple Calculator"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#25567E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:ems="20"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/white" />
+
+    <EditText
+        android:id="@+id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/white" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_horizontal"
+        android:text="Result"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FF0000"
+        android:fontFamily="@font/alike_angular"
+        android:includeFontPadding="true"
+        android:text="Add"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#00A4F6"
+        android:fontFamily="@font/alike_angular"
+        android:text="Sub"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/alike_angular"
+        android:text="Multiply"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/alike_angular"
+        android:text="Divison"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_clr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/alike_angular"
+        android:text="Clear"
+        android:textSize="20sp" />
+
+</LinearLayout>
